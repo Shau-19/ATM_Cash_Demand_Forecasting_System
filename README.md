@@ -150,28 +150,50 @@ Converted predictions into **business KPIs**:
 
 ## 🗂️ Project Structure
 ATM_Cash_Demand_Forecasting_System/
+
 │
 ├── app/
+
 │   └── forecast_demo.py
+
 │
+
 ├── data/
+
 │   ├── master_district_month_clean.csv
+
 │   ├── district_month_MODEL_READY_LAGS.csv
+
 │   └── model_features.txt
+
 │
+
 ├── models/
+
 │   ├── random_forest.pkl
+
 │   ├── gradient_boosting.pkl
+
 │   └── xgboost.pkl
+
 │
+
 ├── notebooks/
+
 │   ├── data_pipeline.ipynb
+
 │   ├── modeling.ipynb
+
 │   ├── backtesting.ipynb
+
 │   ├── scenario_simulation.ipynb
+
 │   └── cost_evaluation.ipynb
+
 │
+
 ├── requirements.txt
+
 └── README.md
 
 
