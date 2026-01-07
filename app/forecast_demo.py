@@ -99,7 +99,7 @@ def compute_district_errors(
         if len(meta_slice) < 12:
             continue
 
-        # 🔑 CRITICAL FIX: index-based alignment
+        
         idx = meta_slice.index.intersection(model_df.index)
 
         if len(idx) < 12:
